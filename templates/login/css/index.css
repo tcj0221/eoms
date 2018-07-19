@@ -1,0 +1,47 @@
+/* CSS Document */
+@charset "utf-8";
+.div,p,ul,li,dl,dt{ margin:0 auto; padding:0px; list-style:none;}
+a:link{color :#666;  text-decoration:none; font-weight:normal; }
+a:visited {color :#666; font-weight:normal; text-decoration:none;}
+a:hover {color :#666; text-decoration:none; font-weight:normal; }
+a:active {color :#666;  text-decoration:none; font-weight:normal; }
+.sl_content{width: 1100px;margin: 0 auto; clear:both; }
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;}
+body,button,input,select,textarea{font-family: "微软雅黑","MicroSoft YaHei","Arial Narrow","HELVETICA"; font-size:14px; padding:0; margin:0; color:#666;}
+table{border-collapse:collapse;border-spacing:0;}
+ul,li{ margin:0px; padding:0px; list-style:none; }
+img{border:none;}
+h1,h2,h3,h4,h5,h6,p{ margin:0; padding:0; font-weight:normal;}
+a{text-decoration:none; color:#000;}
+html{overflow-x:hidden;-webkit-text-size-adjust:none;}
+
+input{border:none;}
+input,textarea{background:#FFF;outline:none;}
+textarea{overflow-y:auto;}
+
+body{ background:#f9f9f9;}
+
+/* 登录 */
+.sl_dl_l{margin: 50px auto;overflow: hidden;}
+.sl_dl_l img{float: left;}
+.sl_dl_l_r{width: 438px;height: 599px;background: #fff;float: right;}
+.sl_dl_l_r h1{width: 438px;text-align: center;height: 77px;line-height: 77px;border-bottom: 1px solid #e5e5e5;font-size: 24px;}
+.sl_srk{padding: 53px 70px;}
+.sl_yhm{width: 276px;height: 48px;border: 1px solid #e5e5e5;line-height: 48px;padding-left: 20px;}
+.sl_srk li{height: 65px;text-align: center;}
+.sl_ljdl{width: 300px;height: 50px;line-height: 50px;background: #f75c5c;display: block;text-align: center;font-size: 16px;margin-top: 10px;cursor: pointer;}
+.sl_wjml{color: #999!important;position: relative;top: 10px;}
+.sl_wjml b{color:#f75c5c;font-weight:normal;}
+.sl_huo p{    width: 39px;
+    height: 30px;
+    background: #fff;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    top: -13px;
+    left: 129px;}
+.sl_huo{border-bottom:1px solid #e5e5e5;height:1px;position:relative;}
+.sl_zczhy{width: 298px;height: 48px;line-height: 48px;border: 1px solid #f75c5c;text-align: center;display: block;}
+
+
+

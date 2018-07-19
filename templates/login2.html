@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>登录</title>
+    <link href="static/css/index.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <!-- content -->
+    <div class="sl_content">
+        <div class="sl_dl_l">
+            <img src="static/images/dl_01.png" alt="">
+            <div class="sl_dl_l_r">
+                <h1>登录</h1>
+
+                <form action="/login" method="post">
+                    {% csrf_token %}
+                    <ul class="sl_srk">
+                        <li>
+                            <input class="sl_yhm" type="text" id="user" name="userId" placeholder="用户名" />
+                        </li>
+                        <li>
+                            <input class="sl_yhm" type="password" id="pwa" name="password" placeholder="密码" />
+                        </li>
+                        <li>
+                            <input type=submit name="submit1" value="登陆" class="sl_ljdl" onclick="return check(this.form)" style="color: #fff;">
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="static/js/jquery-2.1.4.min.js"></script>#}
+    <script>
+        function check(form) {
+            if (form.userId.value == '') {
+                alert("请输入用户帐号!");
+                form.userId.focus();
+                return false;
+            }
+            if (form.password.value == '') {
+                alert("请输入登录密码!");
+                form.password.focus();
+                return false;
+            }
+            return true;
+        }
+    </script>
+</body>
+</html>
