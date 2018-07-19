@@ -24,5 +24,8 @@ def login(request):
 
 
 def home(request):
-    pass
+    home_form =forms.Host(request.GET)
+    info = models.Host.objects.all()
+    print(info)
+
     return render(request, 'login/home.html')

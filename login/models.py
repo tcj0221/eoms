@@ -18,13 +18,14 @@ class User(models.Model):
 
 class Host(models.Model):
     gender = (
-        ('dwzx', '普通用户'),
-        ('root', '管理员'),
+        ('dwzx', 'dwzx'),
+        ('node', 'node')
     )
 
     ip = models.GenericIPAddressField()
-    user = models.CharField(max_length=128)
+    user = models.CharField(max_length=128, choices=gender, default="普通用户")
     password = models.CharField(max_length=256)
+    rootpassword = models.CharField(max_length=256)
     tag = models.CharField(max_length=1024)
     item = models.CharField(max_length=1024)
 
